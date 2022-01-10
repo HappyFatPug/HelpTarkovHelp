@@ -1,7 +1,7 @@
 {
     "name": "Help TarkovHelp",
-    "description": "nikita is the Lord",
-    "version": "1.0",
+    "description": "Nikita is the Lord",
+    "version": "1.1",
     "manifest_version": 3,
     "background": {
       "service_worker": "background.js"
