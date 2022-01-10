@@ -1,0 +1,30 @@
+{
+    "name": "Help TarkovHelp",
+    "description": "nikita is the Lord",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://tarkov.help/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_icon": {
+        "16": "/images/red.png",
+        "32": "/images/red.png",
+        "48": "/images/red.png",
+        "128": "/images/red.png"
+      }
+    },
+    "icons": {
+      "16": "/images/red.png",
+      "32": "/images/red.png",
+      "48": "/images/red.png",
+      "128": "/images/red.png"
+    }
+}
